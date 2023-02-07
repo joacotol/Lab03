@@ -1,0 +1,79 @@
+/**RESET **/
+
+body {
+    margin: 0 3em;
+    padding: 0;
+}
+
+/**GROUPED STYLES **/
+nav {
+    background-color: limegreen;
+}
+
+h1, h2, h3, h4 {
+    color: limegreen;
+}
+
+
+/**NAV BAR **/
+nav {
+    text-align: center;
+    padding-bottom: 10px;
+    margin: auto;
+}
+nav ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding-top: 20px
+}
+
+nav li {
+    display: inline;
+    margin: 1em 0;
+    padding: 2em 1em 1em 1em;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: #000;
+}
+
+
+/**HEADER **/ 
+
+header img {
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline;
+    vertical-align: baseline;
+}
+
+header {
+    margin-top: 1em;
+    text-align: center;
+}
+
+/**MAIN CONTENT **/
+
+
+/** ASIDE MAP **/
+
+
+/** COMMUNITY CENTERS **/
+
+
+/**TIPS **/
+
+/**PICKUP **/
+
+/**FOOTER **/
