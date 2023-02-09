@@ -1,8 +1,12 @@
 /**RESET **/
 
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0 3em;
     padding: 0;
+    font-family: Georgia, serif;
 }
 
 /**GROUPED STYLES **/
@@ -10,8 +14,12 @@ nav {
     background-color: limegreen;
 }
 
-h1, h2, h3, h4 {
+h2, h3, h4 {
     color: limegreen;
+}
+
+h1 {
+    color: darkgreen;
 }
 
 
@@ -56,6 +64,7 @@ header img {
 header h1 {
     display: inline;
     vertical-align: baseline;
+    letter-spacing: 0.5em;
 }
 
 header {
@@ -64,16 +73,82 @@ header {
 }
 
 /**MAIN CONTENT **/
+main {
+    display: inline;
+}
+main > ul {
+    list-style-image: url("./images/recycle_sm.jpg");
+}
 
+main > ul li {
+    line-height: 2.5em;
+}
 
-/** ASIDE MAP **/
+main > ul> li:last-of-type {
+    list-style-image: url("./images/greenarrow.png");
+}
 
+main img {
+    margin-right: 3em;
+    float: right;
+}
 
 /** COMMUNITY CENTERS **/
+
+#noBullets {
+    list-style-type: circle;
+}
+
+#noBullets > li:nth-child(even) {
+    list-style-type: none;
+}
+
+#noBullets > li:nth-child(odd) {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+
+
 
 
 /**TIPS **/
 
+#nestedList > li:nth-child(2) {
+    list-style-type: none;
+}
+
+#nestedList > li > ol {
+    list-style-type: lower-roman;
+}
+
+#nestedList > li > ol li:nth-child(2) {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+#nestedList > li a {
+    color: #fff;
+    background-color: darkgreen;
+    text-decoration-line: none;
+}
+
 /**PICKUP **/
 
+section span {
+    color: lightgreen;
+}
+
 /**FOOTER **/
+footer {
+    border-top: 2px solid #000;
+    text-align: center;
+    background-image: url("./images/ricepaper.png");
+    margin-bottom: 5em;
+}
+
+footer p {
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+}
